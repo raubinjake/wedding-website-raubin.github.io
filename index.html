@@ -1,0 +1,139 @@
+<!--Subscribe to my youtube Channel U CAN CODE for more Awesome codes-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	<title>Wedding website</title>
+	<link rel=stylesheet href="wed-website.css">
+	</head>
+<body>
+	
+	<div>
+	
+		<div class="paly-music">
+      <audio autoplay="autoplay" loop="loop">
+  <source src="wedmusic.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>   
+</div>
+
+	<div class="container">
+		<div class="banner">
+			<div class="nav">
+				<b>Prashant and Neha</b>
+				<div class="menu">
+					<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#us">Us</a></li>
+					<li><a href="#venue">Venue</a></li>
+					<li><a href="#wish">Wishes</a></li>
+					<li><a href="#">Functions</a> 
+					    <ul> 	
+						<li><a href="#haldi">Haldi</a></li>
+						<li><a href="#wedding">Wedding</a></li>
+						<li><a href="#party">Reception</a></li>
+					   </ul>
+				</li>
+				</ul>	
+				</div>
+			</div>
+			<div class="text">
+				<h1>Prashant & Neha</h1>
+				
+				<span class="date">On 23rd May, 2020</span>
+				<h2 id="demo"></h2>
+			</div>
+		</div>
+		<div class="section">
+			<div class="us">
+				<h2><a name="us">Us</a></h2>
+				<div class="us1">
+					<img src="https://i.ibb.co/FWR7gw6/wed-man.jpg">
+					<span>PRASHANT</span>
+				</div>
+				<div class="us1">
+					<img src="https://i.ibb.co/WNhDWh0/wed-woman.jpg">
+					<span>NEHA</span>
+				</div>
+			</div>
+			<div class="venue">
+				<h2><a name="venue">Venue</a></h2>
+				<img src="https://i.ibb.co/wZk2sTj/wed-venue.jpg">
+				<p>Gorakhpur is a city along the banks of the Rapti river in the north-eastern part or the Purvanchal region of the Indian state of Uttar Pradesh. It is situated 273 kilometres north-east of the state capital Lucknow. It is the administrative headquarters of Gorakhpur district, North Eastern Railway Zone and Gorakhpur division. The city is home to the Gorakhnath Math, a Gorakhnath temple. The city also has an Indian Air Force station, since 1963</p>
+			</div>
+			<div class="venue">
+				<h2><a name="wish">Wishes</a></h2>
+				<h4><a name="#"><u>gmail:-prasshantmishra@gmail.com</u></a></h4>
+				<h4><a name="#"><u>mob: +91 8287340254</u></a></h4>
+				<img src="./photo/wishes.jpeg">
+				<p>In short, yes. That said, it used to be saying or writing "congratulations" to a newly married woman was once considered a faux pas because it was thought of as congratulating her on actually landing a man! (Yep, you read that right.) Today though, that's considered an outdated rule and school of thought. Still, if the couple happens to be very traditional or come from a very traditional family, you might want to avoid the term altogether and just say "best wishes.".....</p>
+			</div>
+			<div class="venue">
+				<h2><a name="haldi">Haldi</a></h2>
+				<h4><a name="#"><u>22nd(Friday) - may - 2020</u></a></h4>
+				<img src="./photo/haldi-2.jpg">
+				<p>The Haldi ceremony is a ritual holy bath also known as pithi ceremony, which is one of the pre-wedding ceremonies in India. Turmeric (haldi), oil and water are applied to both the bride and groom by married women on the morning of the wedding. The mixture is believed to bless the couple before the wedding......</p>
+			</div>
+			<div class="venue">
+				<h2><a name="wedding"><u>Wedding</u></a></h2>
+				<h4><a name="#"><u>23rd(Saturday) - may - 2020</u></a></h4>
+				<img src="./photo/wedding-1.jpg">
+				<p>A traditional Indian wedding lasts an average of three days. ... Every wedding guest is usually invited, and it involves an introduction of the couple's families, mingling, a meal and dances or other performances. On the third day, the main ceremony, cocktail hour and reception take place.....</p>
+			</div>
+			<div class="party">
+				<h2><a name="party">Reception - Party</a></h2>
+				<h4><a name="#"><u>27th(Wednesday) - may - 2020</u></a></h4>
+				<img src="https://i.ibb.co/dMb2T7P/wed-party.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.....</p>
+			</div>
+			<footer>&copy; @raubinjake 2020 U Can Code Follow me @ <i class="fab fa-youtube"></i> <i class="fab fa-twitter"></i> <i class="fab fa-github"></i> <i class="fab fa-codepen"></i></footer>
+		</div>
+	</div>
+
+</div>
+<script src="https://kit.fontawesome.com/11acc5a5c1.js" crossorigin="anonymous"></script>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("may 23, 2020 00:01:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s "; 
+ 
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+<script>
+		
+</script>
+
+
+</html>
